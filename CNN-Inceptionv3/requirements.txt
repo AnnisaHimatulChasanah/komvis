@@ -1,6 +1,0 @@
-streamlit
-streamlit-webrtc
-tensorflow
-opencv-python
-Pillow
-numpy
