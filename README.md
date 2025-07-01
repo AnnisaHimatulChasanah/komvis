@@ -1,5 +1,4 @@
 1.	Unduh Proyek dari GitHub
-•	Buka halaman repository GitHub berikut: https://github.com/AnnisaHimatulChasanah/komvis
 •	Klik tombol "Code" (warna hijau), lalu pilih "Download ZIP".
 •	Setelah file ZIP berhasil diunduh, ekstrak folder tersebut ke direktori.
 2.	Masuk ke Folder Proyek
