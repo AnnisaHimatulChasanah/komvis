@@ -1,6 +1,6 @@
 streamlit==1.35.0
 streamlit-webrtc==0.44.6
-tflite-runtime==2.5.0
+tensorflow==2.10.0
 opencv-python==4.9.0.80
 numpy==1.23.5
 Pillow==9.5.0
