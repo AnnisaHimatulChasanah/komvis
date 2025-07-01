@@ -25,7 +25,7 @@ def load_model():
         
         # Link Google Drive yang kamu punya:
         gdrive_file_id = '1zcJCu0HcG_av-q1pPuA-KNmAfh3gruDz'  # GANTI dengan ID kamu
-        gdrive_url = f'https://drive.google.com/file/d/1zcJCu0HcG_av-q1pPuA-KNmAfh3gruDz/view?usp=sharing'
+        gdrive_url = f'https://drive.google.com/uc?id={gdrive_file_id}'
 
         # Jika file belum ada di direktori
         if not os.path.exists(model_path):
