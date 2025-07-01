@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 from PIL import Image
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase, WebRtcMode
-import tflite_runtime.interpreter as tflite
+import tensorflow as tf
 
 # Konfigurasi halaman
 st.set_page_config(
@@ -19,7 +19,7 @@ st.write("Aplikasi ini mendeteksi penyakit daun tomat dari kamera secara real-ti
 @st.cache_resource
 def load_model():
     try:
-        interpreter = tflite.Interpreter(model_path="model_inceptionv3_best.tflite")
+        interpreter = tf.lite.Interpreter(model_path="model_inceptionv3_best.tflite")
         interpreter.allocate_tensors()
         st.success("✅ Model TFLite berhasil dimuat!")
         return interpreter
